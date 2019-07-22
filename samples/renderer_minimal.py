@@ -9,10 +9,10 @@ import imageio
 # PARAMETERS.
 ################################################################################
 # Path to bop_renderer.
-bop_renderer_path = '/path/to/bop_renderer/build'
+bop_renderer_path = '/net/rmc-lx0314/home_local/sund_ma/src/foreign_packages/bop/bop_renderer/build'
 
 # Path to a 3D object model (in PLY format).
-model_path = '/path/to/a/ply/file'
+model_path = '/home_local/sund_ma/data/t-less/models_cad/obj_01.ply'
 obj_id = 1
 
 # Path to output RGB and depth images.
@@ -25,7 +25,6 @@ t = [0.0, 0.0, 300.0]
 fx, fy, cx, cy = 572.41140, 573.57043, 325.26110, 242.04899
 im_size = (640, 480)
 ################################################################################
-
 
 # Import bop_renderer.
 sys.path.append(bop_renderer_path)

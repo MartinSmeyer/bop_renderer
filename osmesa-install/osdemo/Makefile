@@ -1,5 +1,5 @@
-OSMESA_PATH=/opt/osmesa
-LLVM_PATH=/opt/llvm
+OSMESA_PATH=/home_local/sund_ma/src/foreign_packages/bop/required_pkgs/osmesa
+LLVM_PATH=/home_local/sund_ma/src/foreign_packages/bop/required_pkgs/llvm
 
 CFLAGS=-g -pthread
 CPPFLAGS=-I$(OSMESA_PATH)/include
